@@ -2,7 +2,6 @@ class Solution(object):
     def lengthOfLastWord(self, s):
         x = True
         y = 1
-        a = ""
         while x :
             a = s.split(" ")[-y]
             if len(a) > 0:
