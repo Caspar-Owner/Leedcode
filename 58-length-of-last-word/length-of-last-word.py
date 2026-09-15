@@ -8,8 +8,3 @@ class Solution(object):
                 x = False
             y += 1
         return len(a)
-        """
-        :type s: str
-        :rtype: int
-        """
-        
