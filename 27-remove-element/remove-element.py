@@ -7,13 +7,10 @@ class Solution(object):
                 nums[xx] = i
                 xx += 1
         return xx
+# the valid element only goes to [ xx ]
+# if nums was = [1.3.4.1,1,5] and val = 1
+# it will change change nums = [3,4,5,1,1,5]
 
-# class Solution(object):
-#     def removeElement(self, nums, val):
-#         x = 0
-
-#         for xy in nums:
-#             if xy != val:
-#                 nums[x] = xy
-#                 x += 1
-#         return x
+# output = 3
+# it will only read in out till 3 output
+# [3,4,5]
