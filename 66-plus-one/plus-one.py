@@ -8,8 +8,3 @@ class Solution(object):
         for x in str(num):
             i.append(int(x)) 
         return i
-        """
-        :type digits: List[int]
-        :rtype: List[int]
-        """
-        
