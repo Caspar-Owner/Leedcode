@@ -9,10 +9,7 @@ class Solution(object):
                 location = 0
                 for x in str(nums[num_location]):
                     location += int(x)
-            
 
             if location == num_location:
-                return num_location
-            
+                return num_location         
         return -1
-        
